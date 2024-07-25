@@ -1,0 +1,14 @@
+export const CREATE_ROOM = "create_room";
+export const JOIN_ROOM = "join_room";
+export const ROOM_CREATED = "room_created";
+export const ROOM_JOINED = "room_joined";
+export const ROOM_NOT_FOUND = "room_not_found";
+export const ERROR = "error";
+export const MOVE = "move";
+export const INVALID_MOVE = "invalid_move";
+export const GAME_SETUP = "game_setup";
+export const MOVE_UPDATE = "move_update";
+export const GAME_END = "game_end";
+export const DRAW = "draw";
+export const WIN = "win";
+export const LOOSE = "loose";

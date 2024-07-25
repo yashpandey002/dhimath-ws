@@ -1,0 +1,20 @@
+{
+    "name": "ws-server",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "devstart": "nodemon --env-file=.env ./src/index.js"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "nanoid": "^5.0.7",
+        "ws": "^8.18.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
