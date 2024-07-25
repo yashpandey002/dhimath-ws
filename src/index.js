@@ -1,6 +1,7 @@
 import { WebSocketServer } from "ws";
 import { Controller } from "./Controller.js";
 import { Player } from "./Player.js";
+import cors from "cors";
 
 const PORT = process.env.PORT || 8080;
 

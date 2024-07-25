@@ -169,7 +169,6 @@ export class Controller {
             }
 
             if (data.type === MOVE) {
-                console.log(data);
                 if (!data.roomId || !data.playerId) {
                     playerSocket.send(
                         JSON.stringify({
